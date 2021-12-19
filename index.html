@@ -1,93 +1,109 @@
-<!DOCTYPE html>  <!-- Declaring the document type -->
-
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">  <!-- utf-8 is the standard when working with HTML5 -->
-        <title>Christian's Personal Site</title>
-    </head>
-    <body>
-        <table cellspacing="20">
-            <td>
-                <img src="Christian-e1572886577865-768x1367-modified.png" alt="christian profile picture" width="250" height="250">
-            </td>
-            <td>
-                <h1>Christian Nordborg</h1>
-                <p><em>Biomedical laboratory scientist & CTO of <strong>Nord IT Solutions</strong></em><br></p>
-                <p>Lab rat looking to transition into the IT-field.</p>
-            </td>
-        </table>
+<head>
+    <meta charset="utf-8">
+    <title>Christian Nordborg</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <!--        <link rel="icon" href="favicon.ico?v=2">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Indie+Flower&family=VT323&family=Xanh+Mono&family=Georgia&display=swap" rel="stylesheet">
 
-        <hr>
-        <h3>Education</h3>
-        <ul>
-            <li>The Complete Python Pro Bootcamp</li>
-            <li>Umeå Universitet</li>
-        </ul>
-        <hr>
-        <h3>Work Experience</h3>
-        <table border="0" cellspacing="10">
-            <thead>
+</head>
+
+<body>
+<div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" >
+    <h1>I'm Christian.</h1>
+    <h2>A <span class="pro">pro</span>grammer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" >
+    <img class="mountain" src="images/mountain.png">
+</div>
+
+<div class="middle-container">
+    <div class="profile">
+        <img src="images/Christian-e1572886577865-768x1367-modified.png" alt="Christian profile image" height="250" width="250">
+        <h2>Hello.</h2>
+        <p class="intro">I'm a self-taught programmer and technology enthusiast looking for a future job opportunity inside the tech-industry.</p>
+    </div>
+    <hr>
+
+    <div class="skills">
+        <h2>My Skills.</h2>
+
+        <div class="skill-row">
+            <img class="computer-img" src="images/computer2.png" alt="computer.png">
+            <h3>Programming</h3>
+            <p>I can handle myself in a couple of programming languages. <br>These are: <em>Python, Java, Visual Studio for Applications, HTML</em> och <em>CSS</em>.</p>
+        </div>
+
+        <div class="skill-row">
+            <img class="documents-img" src="images/documents.png" alt="documents.png">
+            <h3>Teaching and documentation</h3>
+            <p>I was for two years responsible for teaching new laboratory colleagues certain work protocols, alongside hammering out and documenting said protocols.</p>
+        </div>
+
+        <div class="skill-row">
+            <img class="security-img" src="images/hacker.png" alt="hacker.png">
+            <h3>IT Security</h3>
+            <p>During my free time I am teaching myself about internet security.</p>
+        </div>
+    </div>
+    <hr>
+
+
+    <div class="projects">
+        <h2 class="portfolio-title">My Project Portfolio.</h2>
+        <p class="portfolio-tip"><em>PS! Click project title for extended description.</em></p>
+        <div class="project-portfolio-row">
+            <table class="portfolio-table">
+                <tbody>
                 <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
-            </thead>
-
-            <tbody>
-               <tr>
-                    <td>2021-</td>
-                    <td>Local Systems Administrator at Region Västerbotten</td>
-                </tr>
-                <tr>
-                    <td>2015-2021</td>
-                    <td>Biomedical laboratory scientist ad Region Västerbotten, and heading up the Roche Cobas instruments between 2018-2020.</td>
-                </tr>
-            </tbody>
-
-            <tfoot>
-            </tfoot>
-        </table>
-
-        <hr>
-        <h3>Skills</h3>
-        <table border="1" cellspacing="10">
-            <tbody>
-                <tr>
-                    <td>
-                        <table>
-                            <tr>
-                               <td>Microsoft Excel</td>
-                                <td>&#10032 &#10032 &#10032 &#10032 &#10032</td>
-                            </tr>
-                            <tr>
-                                <td>Python</td>
-                                <td>&#10032 &#10032 &#10032</td>
-                            </tr>
-                        </table>
+                    <td class="left-project">
+                        <img class="electronic-error-log-img" src="images/electronic-error-log.png" alt="error-log"><br>
+                        <a class="project-documentation-link" href="">Equipment Error Catalog</a>
+                        <p class="short-project-languages"><strong>Languages: </strong><em>VBA</em></p>
+                        <p class="short-project-description">An error (cata)log created in Microsoft Excel with a GUI for users to enter in errors and applied actions.</p>
                     </td>
-                    <td>
-                        <table>
-                            <tr>
-                                <td>Java</td>
-                                <td>&#10032 &#10032</td>
-                            </tr>
-                            <tr>
-                                <td>Linux</td>
-                                <td>&#10032 &#10032</td>
-                            </tr>
-                        </table>
+                    <td class="right-project">
+                        <img class="" src="" alt="">
+                        <a class="project-documentation-link" href=""></a>
+                        <p class="short-project-languages"><strong>Languages:</strong><em></em></p>
+                        <p class="short-project-description>">.....</p>
                     </td>
                 </tr>
-            </tbody>
-        </table>
-
-
-
-
-
+                </tbody>
+            </table>
+        </div>
         <hr>
-        <a href="hobbies.html">My Hobbies</a>
-        <a href="contact_details.html">Contact Me</a>
 
-    </body>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you want to attribute to change and efficiency as much as I do.</h3>
+            <p class="contact-message">Have something in mind worth changing? Let's talk about how we can make it a reality.</p><br>
+            <a class="btn" href="mailto:chris@gmail.com">CONTACT ME</a>
+        </div>
+    </div>
+
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://github.com/chrisnordborg">GitHub</a>
+        <a class="footer-link" href="https://www.linkedin.com/in/christian-nordborg-78a6b0147/">LinkedIn</a>
+        <a class="footer-link" href="">Website</a>
+
+        <span class="attribute">
+            <br><br>
+           Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><br>
+        </span>
+        <span class="copyright">
+           © 2021 Christian Nordborg
+        </span>
+
+
+    </div>
+</div>
+
+</body>
+
 </html>

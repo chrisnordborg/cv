@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #EAF6F6;
+    font-family: "Georgia", "Inconsolata" ,"Xanh Mono", "VT323", monospace, sans-serif;
+
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: blue;
+    border-width: 5px;
+    width: 10%;
+    margin: 75px auto;
+}
+
+h1 {
+    font-size: 90px;
+    color: #66BFBF;
+    margin: 0px auto 0px auto;
+    /* line-height: 100%; */
+    font-family: "Indie Flower", monospace;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #66BFBF;
+    /* font-weight: normal; */
+    font-family: "VT323", monospace;
+}
+
+h3 {
+    color: #11999E;
+    font-family: "Xanh Mono", monospace;
+    margin: auto auto 0px auto;
+}
+
+
+
+.top-container {
+     background-color:#B8E4F0;
+   /* background-color:#EAF6F6; */
+    position: relative;
+    padding-top: 250px;
+
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 600px;
+    top: 180px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+
+}
+
+
+
+.middle-container{
+    padding-top: 50px;
+}
+
+.intro{
+    width: 25%;
+    margin: auto;
+    line-height: 2;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 75px auto 130px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.documents-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.security-img{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+
+.portfolio-title{
+    margin: auto auto 0px auto;
+}
+.portfolio-tip{
+    margin: 0px auto 25px auto;
+}
+.portfolio-table{
+    text-align: left;
+    line-height: 2;
+}
+
+.bottom-container{
+    padding: 25px 0;
+    background-color: #66BFBF;
+}
+
+.portfolio-table {
+    align: center;
+
+}
+
+.left-project{
+    width: 40%;
+    padding-left: 20%;
+
+}
+.right-project{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 20%;
+
+}
+
+.short-project-languages{
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+}
+.short-project-description{
+    width: 70%;
+    margin: 0px;
+}
+.project-documentation-link {
+    color: #11999E;
+    font-size: 1.17em;
+    font-family: "Xanh Mono", monospace;
+    margin: 0px auto 0px auto;
+    padding-top: 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.project-documentation-link:hover{
+    font-size: 1.17em;
+    color: #114499;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.electronic-error-log-img{
+    width: 80%;
+}
+.electronic-error-log-img:hover{
+    width: 110%;
+}
+
+
+
+
+
+.contact-me{
+    margin-bottom: 80px;
+}
+
+.contact-message{
+    width: 25%;
+    margin: auto auto 25px auto;
+}
+
+.btn {
+      background: #11cdd4;
+      background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+      background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+      background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+      background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+      background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: Georgia;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+}
+.btn:hover {
+      margin: 50px;
+      background: #30e3cb;
+      background-image: -webkit-linear-gradient(top, #30e3cb,  #2bc4ad);
+      background-image: -moz-linear-gradient(top, #30e3cb,  #2bc4ad);
+      background-image: -ms-linear-gradient(top, #30e3cb,  #2bc4ad);
+      background-image: -o-linear-gradient(top, #30e3cb,  #2bc4ad);
+      background-image: linear-gradient(to bottom, #30e3cb,  #2bc4ad);
+      text-decoration: none;
+}
+
+.footer-link{
+    color: #334488;
+    font-family: "Georgia", monospace;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #EAF6F6;
+}
+
+.attribute{
+    font-size: 0.8rem;
+}
+
+.copyright{
+    color: #EAF6F6;
+}
+
+
+
+
