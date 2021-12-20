@@ -2,7 +2,7 @@ body {
     margin: 0;
     text-align: center;
     background-color: #EAF6F6;
-    font-family: "Georgia", "Inconsolata" ,"Xanh Mono", "VT323", monospace, sans-serif;
+    font-family: "Merriweather", "Inconsolata" ,"Xanh Mono", "VT323", monospace, sans-serif;
 
 }
 
@@ -120,7 +120,6 @@ h3 {
 
 .portfolio-table {
     align: center;
-
 }
 
 .left-project{
@@ -141,7 +140,7 @@ h3 {
     padding: 0px;
 }
 .short-project-description{
-    font-family: Georgia;
+    font-family: Merriweather;
     width: 70%;
     margin: 0px;
     line-height: 1.3;
@@ -191,7 +190,7 @@ h3 {
       -webkit-border-radius: 8;
       -moz-border-radius: 8;
       border-radius: 8px;
-      font-family: Georgia;
+      font-family: Merriweather;
       color: #ffffff;
       font-size: 20px;
       padding: 10px 20px 10px 20px;
@@ -210,7 +209,7 @@ h3 {
 
 .footer-link{
     color: #334488;
-    font-family: "Georgia", monospace;
+    font-family: "Merriweather", monospace;
     margin: 0px 10px;
     text-decoration: none;
 }
