@@ -3,8 +3,16 @@ body {
     text-align: center;
     background-color: #EAF6F6;
     font-family: "Merriweather", "Inconsolata" ,"Xanh Mono", "VT323", monospace, sans-serif;
-
 }
+
+.contact-details-body{
+    margin: 0;
+    text-align: center;
+    background-color: #B8E4F0;
+    font-family: "Merriweather", "Inconsolata" ,"Xanh Mono", "VT323", monospace, sans-serif;
+}
+
+
 
 hr {
     border-style: none;
